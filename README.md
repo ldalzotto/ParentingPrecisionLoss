@@ -1,5 +1,7 @@
 # ParentingPrecisionLoss
 
+Unity 2018.3.9f1 Personal
+
 When a GameObject is programatically parented at a specific world position to another GameObject that is not at the origin, then it seems that the queryied world position of the child is not precisely equal to the position that have been desired.
 This precision loss tends to increase as the distance of the parent object from the origin increases.
 
